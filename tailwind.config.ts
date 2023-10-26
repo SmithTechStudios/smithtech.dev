@@ -3,18 +3,13 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   mode: "jit",
-  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,vue}",
+    "./components/**/*.{js,ts,jsx,tsx,vue}",
+  ],
   darkMode: "class", // or 'media' or 'class'
   theme: {
-    extend: {
-      colors: {
-        trueGray: colors.neutral,
-      },
-    },
-    fontFamily: {
-      sans: ["Inter", ...defaultTheme.fontFamily.sans],
-      stock: [defaultTheme.fontFamily.sans],
-    },
+    extend: {},
   },
   variants: {
     extend: {},
