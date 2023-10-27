@@ -9,6 +9,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/devtools": "^1.0.0",
     "@nuxtjs/tailwindcss": "^6.7.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@types/node": "^18",

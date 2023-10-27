@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="mx-8 my-2 flex justify-between items-center">
-      <img class="h-16" src="/logo.png" alt="">
+      <img class="h-16" src="~/assets/logo.png" alt="">
       <div class="flex gap-4 items-center">
         <span>About</span>
         <button class="p-2 border-2 border-blue-900 text-blue-900 rounded-full">Say Hello</button>
@@ -12,10 +12,10 @@
         <h1 class="text-3xl">Creating Websites and Apps</h1>
 
 
-        <img src="/logo.webp" class="h-56 rounded-3xl" alt="">
+        <img src="~/assets/logo.webp" class="h-56 rounded-3xl" alt="">
 
 
-        <img src="/undraw_progressive_app_m-9-ms.svg" class="h-48 mb-8" alt="">
+        <img src="~/assets/undraw_progressive_app_m-9-ms.svg" class="h-48 mb-8" alt="">
       </div>
       <div class="bg-[#283149] text-white flex flex-col items-center justify-center p-4">
         <p class="text-2xl center mb-10">Hello we are SmithTech Studios</p>
@@ -100,6 +100,7 @@
       </div>
     </main>
   </div>
+  <NuxtPage />
 </template>
 
 
