@@ -14,5 +14,19 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require("@tailwindcss/aspect-ratio")],
+  daisyui : {
+    themes: [
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["light"],
+          primary: "#283149",
+        },
+        dark :{
+          ...require("daisyui/src/theming/themes")["dark"],
+          primary: "#283149",
+        }
+      },
+    ],
+  },
+  plugins: [require("@tailwindcss/aspect-ratio"), require('daisyui')],
 };
